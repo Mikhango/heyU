@@ -3,6 +3,10 @@
 $linear-gradient: #d90646, #eb3f2d;
 $main-red-color: #d90646;
 
+html {
+    overflow-x: hidden;
+}
+
 *{
     outline: none;
     border: 0;

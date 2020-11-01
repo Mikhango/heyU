@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New</title>
+    <link rel="shortcut icon" href="img/main.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-top">
+                    <span class="logo">itProger</span>
+                    <div class="menu"><i class="fas fa-bars"></i></div>
+                    <ul>
+                        <li><a href="#" onclick="return slowScroll('.header-main')">Интро</a></li>
+                        <li><a href="#" onclick="return slowScroll('.features')">Возможности</a></li>
+                        <li><a href="#" onclick="return slowScroll('.information')">Помощь</a></li>
+                        <li><a href="#" onclick="return slowScroll('.subscribe')">Блог</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu">
+                    <ul>
+                        <li><a href="#" onclick="return slowScroll('.header-main')">Интро</a></li>
+                        <li><a href="#" onclick="return slowScroll('.features')">Возможности</a></li>
+                        <li><a href="#" onclick="return slowScroll('.information')">Помощь</a></li>
+                        <li><a href="#" onclick="return slowScroll('.subscribe')">Блог</a></li>
+                    </ul>
+                </div>
+
+                <div class="header-main">
+                    <div class="info">
+                        <h1>Простой, удобный<br>& компактный</h1>
+                        <p>Простое приложение HeyU для переписки на всевозможные темы</p>
+                        <button type="button" class="download">Скачать сейчас</button>
+                    </div>
+                    <div class="image">
+                        <img src="img/iphone-main-image.png" alt="Photo of programm">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="features">
+            <div class="container">
+                <div class="block">
+                    <div class="order-mobile">
+                        <img src="img/iphone2.png" alt="iphone2">
+                    </div>
+                    <div class="info">
+                        <h2>Простая переписка</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="info">
+                        <h2>Будь в курсе всего<span class="dot">.</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.</p>
+                    </div>
+                    <div>
+                        <img src="img/iphone3.png" alt="iphone3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews container">
+            <h3>Что говорят люди<span class="dot">.</span></h3>
+            <div class="flex">
+                <div>
+                    <div class="review">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <span class="website">Booking.com</span>
+                    </div>
+                    <div class="author">
+                        <img src="img/author-1.png" alt="author">
+                        <span class="name">
+                            Джордж Френклин<br>
+                            <span class="position">Глава компании</span>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <div class="review main">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <span class="website">Airnbnb</span>
+                    </div>
+                    <div class="author">
+                        <img src="img/author-2.png" alt="author">
+                        <span class="name">
+                            Джордж Френклин<br>
+                            <span class="position">Глава компании</span>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <div class="review">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <span class="website">Symu.co</span>
+                    </div>
+                    <div class="author">
+                        <img src="img/author-1.png" alt="author">
+                        <span class="name">
+                            Джордж Френклин<br>
+                            <span class="position">Глава компании</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="information">
+            <div class="container flex">
+                <div>
+                    <div class="block flex">
+                        <div class="info">
+                            <h4>Начни общение</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod tempor incid.</p>
+                        </div>
+                        <div>
+                            <img src="img/icon-mess.png" alt="Message">
+                        </div>
+                    </div>
+                    <div class="block flex">
+                        <div class="info">
+                            <h4>Соверши звонок</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod tempor incid.</p>
+                        </div>
+                        <div>
+                            <img src="img/icon-phone.png" alt="Message">
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="img/iphone-presentation.png" alt="iphone">
+                    <div class="video-play">
+                        <img src="img/play-circle.png" alt="Start video">
+                    </div>
+                </div>
+                <div>
+                    <div class="block flex left-align">
+                        <div>
+                            <img src="img/icon-photo.png" alt="Message">
+                        </div>
+                        <div class="info">
+                            <h4>Сделай фото</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod tempor incid.</p>
+                        </div>
+                    </div>
+                    <div class="block flex left-align">
+                        <div>
+                            <img src="img/icon-video.png" alt="Message">
+                        </div>
+                        <div class="info">
+                            <h4>Вышли видео</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod tempor incid.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe container">
+            <h4>Подпишись на наши обновления<span class="dot">.</span></h4>
+            <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore.</p>
+            <form id="sub_form">
+                <input type="email" id="email" placeholder="Ваш e-mail адрес">
+                <button type="button" id="subscribe">Подписаться</button>
+                <label for="email"></label>
+            </form>
+        </section>
+
+        <section class="download">
+            <div class="container">
+                <div class="logo">H</div>
+
+                <h4>Скачайте приложение<span class="dot">.</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore.</p>
+                <a href="#"><img src="img/appstore.png" alt="appstore"></a>
+            </div>
+        </section>
+
+        <footer class="container">
+            <ul>
+                <li><a href="#" onclick="return slowScroll('.header-main')">Интро</a></li>
+                <li><a href="#" onclick="return slowScroll('.features')">Возможности</a></li>
+                <li><a href="#" onclick="return slowScroll('.information')">Помощь</a></li>
+                <li><a href="#" onclick="return slowScroll('.subscribe')">Блог</a></li>
+            </ul>
+        </footer>
+
+        <div id="modal-video">
+            <div class="close-button"><i class="fas fa-times"></i></div>
+            <div class="video-modal">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0sQAj9p_ppU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/main-min.js"></script>
+
+    </body>
+</html>

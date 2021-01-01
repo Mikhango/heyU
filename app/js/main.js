@@ -17,7 +17,7 @@ $(".header-top .menu").on("click", function(){
 $("#subscribe").on("click", function() {
     let email = $("#email").val();
     email = email.trim();
-    if (email.split(".").lenght <= 1){
+    if (email.split(".").lenght < 1 || email.split("@").lenght == 2){
         $("#sub_form label").text("Вы ввели неверный e-mail");
         $("#sub_form label").fadeIn();
     }
